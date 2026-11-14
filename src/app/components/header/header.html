@@ -1,0 +1,28 @@
+<header>
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/" routerLinkActive="active">
+      <img src="logo1.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <!-- Cambiado a routerLink para ir a la ruta /inicio -->
+          <a class="nav-link" routerLink="/" routerLinkActive="active">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <!-- Cambiado a routerLink para ir a la ruta /final -->
+          <a class="nav-link" routerLink="/anime" routerLinkActive="active">anime</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button type="button" class="btn btn-secondary">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</header>
